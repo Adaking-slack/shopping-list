@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    padding-top: 9em;
+    background-image: url(./images/pexels-daria-shevtsova-1095550.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+ 
+}
+p{
+    font-size: 1.9em;
+    margin-bottom: 0.9em;
+
+}
+
+input{
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 30%;
+    font-size: 15px;
+    
+}
+
+button{
+    padding: 1em;
+}
+
+#listOutput{
+    margin-top: 9em;
+}
+
+li{
+    padding: 1em;
+    
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+
+  ul li:hover {
+    background: #ddd;
+  }
+
+  .fa-trash{
+    display: inline-block;
+    height: 30px;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 50%;
+    float:right;   
+    color: red;
+  }    
+
+  button{
+    width: 9em;
+    font-weight: bold;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
